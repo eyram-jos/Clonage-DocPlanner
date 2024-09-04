@@ -1,0 +1,1201 @@
+
+
+::selection {
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    background: rgb(0, 179, 155);
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+nav {
+    display: block;
+}
+
+
+*, :after, :before {
+    box-sizing: inherit;}
+
+.container {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+div {
+    display: block;
+}
+
+.container:after, .container:before {
+    content: "";
+    display: table;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+.container:after {
+    clear: both;
+}
+
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+
+.nav-bar h1 {
+    margin: 2px 0 0;
+    line-height: 68px ;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-bar{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-bottom: 1px;
+}
+
+
+
+/* Styles pour le menu déroulant */
+.navigation {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-element {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    z-index: 100;
+  }
+  
+  .dropdown-element a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-element a:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Affichage du menu déroulant au survol */
+  .navigation:hover .dropdown-element {
+    display: block;
+  }
+
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+
+html {
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+}
+
+body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary
+{display:block}
+
+a {
+    text-decoration: none;
+    color: #3d83df;
+    outline: 0;
+    transition: all .2s ease 0s;
+}
+
+a{background-color:transparent}
+
+a:active,a:hover{outline:0}
+abbr[title]{border-bottom:1px dotted}
+a:hover{text-decoration:underline}
+a:active,a:focus,a:hover{outline:0}
+
+h1{font-size:2em;margin:.67em 0}
+h1,h2,h3,h4{margin:1em 0;font-family:Work Sans,Arial,sans-serif;font-weight:300;letter-spacing:-.3px}
+h1{font-size:2.125rem;color:#00b39b}
+h1:first-child{margin:0}
+
+
+
+img{border:0}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+svg:not(:root){overflow:hidden}
+
+figure{margin:1em 40px}
+
+hr{box-sizing:content-box;height:0}
+
+pre{overflow:auto}
+
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
+
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
+
+button{overflow:visible}
+
+button,select{text-transform:none}
+
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+
+button[disabled],html input[disabled]{cursor:default}
+
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+
+
+*,:after,:before{box-sizing:inherit}
+
+body{font-weight:400;font-family:Roboto,Arial,sans-serif;color:#747474;padding-top:70px;-webkit-font-smoothing:antialiased}
+
+
+::-moz-selection{background:#00b39b;color:#fff;text-shadow:none}
+
+::selection{background:#00b39b;color:#fff;text-shadow:none}
+
+dl,menu,ol,ul{margin:0;padding:0}
+
+figure{margin:0}
+
+h2{font-size:1.875rem}
+h2:first-child{margin-top:0} 
+
+h3{font-size:1.5rem} 
+
+p{margin:1.6em 0}
+
+.vert-align{display:table;width:100%;height:100%}
+.vert-align--centered{text-align:center}
+.vert-align>*{width:100%;height:100%;display:table-cell;vertical-align:middle;position:relative;box-sizing:border-box}
+
+.grid{margin:0 -10px}
+.grid:after,.grid:before{content:"";display:table;clear:both}
+.grid.grid--to-right [class*=col-]{float:right}[class*=col-]{float:left;min-height:1px;padding:10px}
+
+.col-1{width:100%}
+.col-2{width:50%}
+.col-3{width:33.33%}
+.col-3-2{width:66.66%}
+.col-4{width:25%}
+.col-5{width:20%}
+.col-6{width:16.66%}
+.col-56{width:56%}
+.col-44{width:44%}
+.col-3-4{width:75%}
+.col-2-3{width:66.66%}
+.col-4-3{width:75%}
+.col-37{width:37.5%}@media (max-width:960px){.col-4,.col-5,.col-6{width:50%}
+.col-4:nth-of-type(odd),.col-5:nth-of-type(odd),.col-6:nth-of-type(odd){clear:left}}@media only screen and (max-width:500px),only screen and (min-device-width:320px) and (max-device-width:480px){.col-2,.col-3,.col-3-2,.col-3-4,.col-4,.col-5,.col-6,.col-37,.col-56{float:none;width:100%}}
+
+.coca{padding:17px 13px 13px;display:inline-block;cursor:pointer;position:relative;outline:0;font:inherit;color:inherit;text-transform:none;background-color:transparent;border:0;margin:0 -10px 0 0;overflow:visible}
+
+.ronaldo{display:block;top:50%;margin-top:-1px}
+.ronaldo,
+.ronaldo:after,
+.ronaldo:before{width:24px;height:2px;background-color:#00b39b;border-radius:2px;position:absolute;transition-property:transform;transition-duration:.15s;transition-timing-function:ease}
+.ronaldo:after,.ronaldo:before{content:"";display:block}.ronaldo:before{top:-7px}
+.ronaldo:after{bottom:-7px}
+.ronaldo{top:1px;transition-duration:.4s;transition-timing-function:cubic-bezier(.68,-.55,.265,1.55)}
+.ronaldo:before{top:7px;transition:opacity .15s ease .4s}.ronaldo:after{top:14px;transition:transform .4s cubic-bezier(.68,-.55,.265,1.55)}.is-menu .coca .ronaldo{transform:translate3d(0,7px,0) rotate(135deg);transition-delay:.1s}.is-menu .coca .ronaldo:before{transition-delay:0s;opacity:0}.is-menu .coca .ronaldo:after{transform:translate3d(0,-14px,0) rotate(-270deg);transition-delay:.1s}
+
+.azerty{width:24px;height:16px;display:inline-block;position:relative}@keyframes bounce{0%,20%,53%,80%,to{animation-timing-function:cubic-bezier(.215,.61,.355,1);transform:translateZ(0)}40%,43%{animation-timing-function:cubic-bezier(.755,.05,.855,.06);transform:translate3d(0,-.5em,0)}70%{animation-timing-function:cubic-bezier(.755,.05,.855,.06);transform:translate3d(0,-.3em,0)}90%{transform:translate3d(0,-.1em,0)}}@keyframes pulse{0%{transform:scaleX(1)}50%{transform:scale3d(1.05,1.05,1.05)}to{transform:scaleX(1)}}@keyframes shake{0%,to{transform:translateZ(0)}10%,30%,50%,70%,90%{transform:translate3d(-3px,0,0)}20%,40%,60%,80%{transform:translate3d(3px,0,0)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(359deg)}}
+
+
+
+.slick-next:focus:before,.slick-next:hover:before,.slick-prev:focus:before,.slick-prev:hover:before{opacity:1}.slick-next.slick-disabled:before,.slick-prev.slick-disabled:before{opacity:.25}.slick-next:before,.slick-prev:before{font-family:slick;font-size:20px;line-height:1;color:#fff;opacity:.75;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+.slick-prev{left:-25px}
+.slick-prev[dir=rtl]{left:auto;right:-25px}
+.slick-prev:before{content:"\2190"}
+.slick-prev:before[dir=rtl]{content:"\2192"}
+.slick-next{right:-25px}
+.slick-next[dir=rtl]{left:-25px;right:auto}
+.slick-next:before{content:"\2192"}
+.slick-next:before[dir=rtl]{content:"\2190"}.slick-dotted .slick-slider{margin-bottom:30px}
+.slick-dots{position:absolute;bottom:-25px;list-style:none;display:block;text-align:center;padding:0;margin:0;width:100%}
+.slick-dots li{position:relative;display:inline-block;margin:0 5px;padding:0}.slick-dots li,.slick-dots li button{height:20px;width:20px;cursor:pointer}
+.slick-dots li button{border:0;background:transparent;display:block;outline:none;line-height:0;font-size:0;color:transparent;padding:5px}.slick-dots li button:focus,.slick-dots li button:hover{outline:none}
+.slick-dots li button:focus:before,.slick-dots li button:hover:before{opacity:1}
+.slick-dots li button:before{position:absolute;top:0;left:0;content:"\2022";width:20px;height:20px;font-family:slick;font-size:6px;line-height:20px;text-align:center;color:#000;opacity:.25;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.slick-dots li.slick-active button:before{color:#000;opacity:.75}.slick-slider{box-sizing:border-box;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list,.slick-slider{position:relative;display:block}
+
+.slick-list{overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:none}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-list,.slick-slider .slick-track{transform:translateZ(0)}.slick-track{position:relative;left:0;top:0;display:block}.slick-track:after,.slick-track:before{content:"";display:table}
+
+.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}
+.slick-slide{float:left;height:100%;min-height:1px;display:none}[dir=rtl] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}
+
+.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}.slick-loading .slick-list{background:#fff 50% no-repeat}.slick-next,.slick-prev{position:absolute;display:block;height:20px;width:20px;line-height:0;font-size:0;cursor:pointer;top:50%;transform:translateY(-50%);padding:0;border:none}.slick
+
+.logo-docplanner{width:268px;height:33px}@media (max-device-width:480px){.logo-docplanner{width:215px}}
+
+.logo-docplanner .p1,.logo-docplanner .p2{transition:all .2s ease 0s}.logo-docplanner .p1{fill:#ababab}.logo-docplanner .p2{fill:#00bfa5}.is-menu .logo-docplanner .p2{fill:#fff}.is-menu .logo-docplanner .p1{fill:hsla(0,0%,100%,.6)}.is-menu .logo-docplanner{filter:brightness(200%) saturate(0) contrast(1000%) grayscale(100%);-webkit-filter:brightness(200%) saturate(0) contrast(1000%) grayscale(100%)}
+
+
+
+.style-select select{width:100%;background:transparent;border:0;border-radius:0;padding:0 3.5em 0 1.5em;height:40px;-webkit-appearance:none;text-transform:uppercase;outline:0}.style-select:hover{background:hsla(0,0%,100%,.9);color:#333}.style-select:after{content:"";position:absolute;right:10px;top:50%;margin-top:-.5em;display:inline-block;width:1em;height:1em;margin-right:.2em;line-height:1em;background:no-repeat url(/icons/arrow-icon@2x.png) 50% 50%;background-size:8px;pointer-events:none}.section{width:100%}.section__inner{zoom:1;max-width:1015px;padding:0 20px;margin:0 auto;position:relative}.section__inner:after,.section__inner:before{content:"";display:table}
+
+.section__inner:after{clear:both}
+
+.hamburger{float:right;display:none;z-index:12}@media (max-device-width:480px){.hamburger{display:block}}body.is-menu{overflow:hidden}
+
+body.is-menu .hamburger-inner,body.is-menu .hamburger-inner:after,body.is-menu .hamburger-inner:before{background:#fff}
+
+
+
+
+.main-header{position:fixed;top:0;left:0;width:100%;z-index:3;background:hsla(0,0%,100%,.98);transition:box-shadow .25s ease 0s}
+.main-header h1{margin:2px 0 0;line-height:68px;display:inline-block;position:relative}@media (max-device-width:480px){.main-header h1{line-height:48px;z-index:12}}
+.main-header a{display:inline-block}
+.main-header.is-sticky{box-shadow:0 -2px 10px 0 rgba(0,0,0,.15)}
+
+
+
+/* Styles pour le menu de navigation principal */
+.navigation {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+/* Styles pour le menu déroulant des départements */
+.navigation-element {
+    display: none;
+    padding-top: 10px;
+    position: absolute;
+    min-width: 220px;
+    margin-left: -100px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    z-index: 1;
+}
+
+/* Styles pour les liens dans le menu déroulant */
+.navigation-element a,
+.navigation-element li {
+    display: block;
+    width: 100%;
+}
+
+/* Styles pour les liens dans le menu déroulant */
+.navigation-element a {
+    color: #747474;
+    line-height: 120%;
+    padding: 12px 16px !important;
+    text-decoration: none;
+    display: block;
+}
+
+/* Style pour le survol des liens dans le menu déroulant */
+.navigation:hover .navigation-element a:hover {
+    background-color: #f6f8f8;
+}
+
+/* Affichage du menu déroulant au survol */
+.navigation:hover .navigation-element {
+    display: block;
+}
+
+/* Media queries pour les petits écrans */
+@media (max-device-width: 480px) {
+    .navigation > a {
+        display: none;
+    }
+
+    /* Styles pour le menu déroulant sur les petits écrans */
+    .navigation .navigation-element {
+        display: block;
+        padding-top: 20px;
+        position: static;
+        min-width: 100%;
+        margin-left: 0;
+        background: transparent;
+        box-shadow: none;
+        z-index: 1;
+    }
+
+    /* Styles pour les liens dans le menu déroulant sur les petits écrans */
+    .navigation .navigation-element li {
+        padding: 0;
+    }
+
+    /* Styles pour les liens dans le menu déroulant sur les petits écrans */
+    .navigation .navigation-element li a {
+        border-bottom: none;
+    }
+}
+
+/* Styles pour la barre de navigation secondaire */
+.sous-nav {
+    position: relative;
+    float: right;
+}
+
+/* Media queries pour les petits écrans */
+@media (max-device-width: 480px) {
+    /* Styles pour la barre de navigation secondaire sur les petits écrans */
+    .sous-nav {
+        position: fixed;
+        top: 0;
+        padding: 70px 0 0;
+        height: 100%;
+        right: 0;
+        width: 100%;
+        z-index: 10;
+        background: #00b39b;
+        transition: transform .2s ease 0s;
+        transform: translateY(-100%);
+        overflow-y: auto;
+    }
+
+    /* Affichage de la barre de navigation secondaire lorsqu'elle est ouverte */
+    body.is-menu .sous-nav {
+        transform: translateY(0);
+    }
+}
+
+/* Styles pour la liste principale de navigation */
+.chicago {
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 1.33em 0;
+}
+
+/* Styles pour les liens dans la liste principale de navigation */
+.chicago a {
+    color: #ababab;
+    display: block;
+    text-decoration: none;
+    padding: 0 .6em;
+}
+
+/* Style pour le survol des liens dans la liste principale de navigation */
+.chicago a:hover {
+    color: #00b39b;
+}
+
+/* Styles pour les éléments de la liste principale de navigation */
+.chicago li {
+    display: inline-block;
+}
+
+/* Media queries pour les petits écrans */
+@media (max-device-width: 480px) {
+    /* Styles pour la liste principale de navigation sur les petits écrans */
+    .chicago {
+        padding: .5em 0;
+    }
+
+    /* Styles pour les liens dans la liste principale de navigation sur les petits écrans */
+    .chicago li:nth-child(3n) a {
+        padding: 1em 0 0;
+        border-bottom: none;
+        opacity: .5;
+    }
+
+    /* Styles pour les liens dans le menu déroulant sur les petits écrans */
+    .chicago li:nth-child(3n) .navigation-element a {
+        opacity: 1;
+    }
+
+    /* Styles pour les liens dans la liste principale de navigation sur les petits écrans */
+    .chicago a {
+        cursor: pointer;
+        padding: 1em 0;
+        text-align: center;
+        color: #fff;
+        border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+    }
+
+    /* Style pour le survol des liens dans la liste principale de navigation sur les petits écrans */
+    .chicago a:hover {
+        color: #fff;
+    }
+
+    /* Styles pour les éléments de la liste principale de navigation sur les petits écrans */
+    .chicago li {
+        display: block;
+        padding: 0 20px;
+        transition: opacity .2s ease 0s;
+        opacity: 0;
+    }
+
+    /* Affichage des éléments de la liste principale de navigation sur les petits écrans */
+    .is-menu .chicago li {
+        opacity: 1;
+    }
+
+    /* Décalage de l'animation pour les éléments de la liste principale de navigation sur les petits écrans */
+    .is-menu .chicago li:first-of-type {
+        transition-delay: .15s;
+    }
+
+    .is-menu .chicago li:nth-of-type(2) {
+        transition-delay: .25s;
+    }
+
+    .is-menu .chicago li:nth-of-type(3) {
+        transition-delay: .35s;
+    }
+
+    .is-menu .chicago li:nth-of-type(4) {
+        transition-delay: .45s;
+    }
+}
+
+/* Styles spécifiques pour les liens "goal" */
+.chicago .goal,
+.chicago.goal a {
+    color: #00b39b;
+}
+
+/* Media queries pour les petits écrans */
+@media (max-device-width: 480px) {
+    /* Styles spécifiques pour les liens "goal" sur les petits écrans */
+    .chicago .goal,
+    .chicago .goal a {
+        color: hsla(0, 0%, 100%, .8);
+    }
+}
+
+
+/* Styles pour le pied de page principal */
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+/* Styles pour les éléments de contenu dans le pied de page */
+.main-footer .section__inner,
+.main-footer p {
+    font-size: 12px;
+    color: #ababab;
+}
+/* Styles pour les paragraphes dans le pied de page */
+.main-footer p {
+    margin-bottom: .4em;
+}
+
+/* Styles pour la section principale */
+.lead {
+    margin: 2.0625rem auto 3.75rem;
+}
+/* Styles pour les paragraphes dans la section principale */
+.lead p {
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+/* Styles pour les titres dans la section principale */
+.lead h1 {
+    text-align: center;
+}
+/* Styles responsifs pour la section principale */
+@media (max-device-width: 480px) {
+    .lead {
+        margin: 1.25rem auto 1.875rem;
+    }
+    .lead h1 {
+        font-size: 1.875em;
+        margin: .7em 0;
+    }
+}
+/* Styles pour le logo dans la section principale */
+.lead__logo {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styles pour la section des services */
+.services {
+    margin: 3.75rem auto 2.5rem;
+}
+/* Styles responsifs pour la section des services */
+@media (max-width: 640px) {
+    .services .col-2 {
+        width: 100%;
+        float: none;
+    }
+}
+/* Styles pour les éléments de service */
+.services__item {
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+}
+/* Styles responsifs pour les éléments de service */
+@media (max-width: 830px) {
+    .services__item {
+        padding: 1.375em 1.25em 0;
+    }
+}
+/* Styles spécifiques pour les différents types de services */
+.services__item--marketplace {
+    background: #00ccb1;
+}
+.services__item--saas {
+    background: #3d83df;
+}
+.services__item--clinics {
+    background: #1b2734;
+}
+/* Styles pour les titres dans les éléments de service */
+.services__item h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+.services__item h1 {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;
+}
+/* Styles responsifs pour les titres dans les éléments de service */
+@media (max-width: 800px) {
+    .services__item h1 {
+        font-size: 1.25em;
+    }
+}
+@media (max-width: 640px) {
+    .services__item h1 {
+        font-size: 1.625em;
+    }
+}
+/* Styles pour les images dans les éléments de service */
+.services__item img {
+    margin-bottom: -.4em;
+}
+/* Styles pour l'écran dans les éléments de service */
+.services__item__screen {
+    width: 100%;
+    margin-left: 40%;
+    margin-top: -2.3em;
+}
+/* Styles responsifs pour l'écran dans les éléments de service */
+@media (max-width: 920px) {
+    .services__item__screen {
+        margin-top: 1.625em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.services__item__screen--saas {
+    margin-top: 1em;
+}
+/* Styles pour la sélection de style */
+.services .style-select {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+/* Styles pour les options de sélection */
+.services .style-select select {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* Styles pour les options de sélection */
+.services .style-select select option {
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #333;
+}
+/* Styles au survol pour la sélection de style */
+.services .style-select:hover {
+    background: none;
+    color: #fff;
+}
+/* Styles pour l'icône de la flèche dans la sélection de style */
+.services .style-select:after {
+    background: no-repeat url(/icons/icon-caret-white.svg) 50% 50%;
+}
+/* Styles pour la dernière sélection de style */
+.services .style-select:last-child {
+    margin-bottom: 35px;
+}
+
+/* Styles pour la section des marques */
+.brands {
+    margin: 2.5rem auto 3.125rem;
+}
+/* Styles pour le titre des marques */
+.brands h1 {
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+}
+/* Styles responsifs pour la section des marques */
+@media (max-width: 700px) {
+    .brands {
+        margin: 1.875rem auto;
+    }
+    .brands h1 {
+        float: none;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+}
+/* Styles pour la liste des logos des marques */
+.brands__logos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+}
+/* Styles responsifs pour la liste des logos des marques */
+@media (max-width: 700px) {
+    .brands__logos {
+        justify-content: center;
+        width: 100%;
+    }
+}
+/* Styles pour les éléments de la liste des logos des marques */
+.brands__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: 25%;
+}
+/* Styles responsifs pour les éléments de la liste des logos des marques */
+@media (max-width: 700px) {
+    .brands__logos li {
+        padding-left: 0;
+        text-align: center;
+        width: 33.33333%;
+    }
+}
+@media (max-device-width: 480px) {
+    .brands__logos li {
+        width: 50%;
+    }
+}
+/* Styles pour les images des logos des marques avec transition */
+.brands__logos .clinicloud img,
+.brands__logos .feegow img,
+.brands__logos .gipo img,
+.brands__logos .jameda img,
+.brands__logos .mydr img,
+.brands__logos .tuotempo img {
+    transition: all .2s ease 0s;
+    filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity: .55;
+}
+/* Styles pour les images des logos des marques au survol */
+.brands__logos .clinicloud:hover img,
+.brands__logos .feegow:hover img,
+.brands__logos .gipo:hover img,
+.brands__logos .jameda:hover img,
+.brands__logos .mydr:hover img,
+.brands__logos .tuotempo:hover img {
+    filter: none;
+    opacity: 1;
+}
+/* Styles spécifiques pour certains logos */
+.brands__logos .tuotempo img {
+    height: 16px;
+}
+.brands__logos .jameda img {
+    height: 20px;
+}
+.brands__logos .clinicloud,
+.brands__logos .gipo {
+    width: 12.5%;
+}
+@media (max-width: 700px) {
+    .brands__logos .clinicloud,
+    .brands__logos .gipo {
+        width: 33.33333%;
+    }
+}
+@media (max-device-width: 480px) {
+    .brands__logos .clinicloud,
+    .brands__logos .gipo {
+        width: 50%;
+    }
+}
+.brands__logos .clinicloud img,
+.brands__logos .gipo img,
+.brands__logos .mydr img {
+    height: 34px;
+}
+.brands__logos .mydr img {
+    width: 75%;
+}
+.brands__logos a {
+    display: inline-block;
+    padding: 5px 0;
+}
+.brands__logos a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+}
+.brands__logos a path {
+    transition: all .2s ease 0s;
+    fill: hsla(0, 0%, 67%, .7);
+}
+.brands__logos a:hover path {
+    fill: #00bfa5;
+}
+
+
+/* Styles pour la section des statistiques */
+.stats {
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg, rgba(0, 204, 177, .01) 5%, rgba(61, 199, 223, .1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem; /* Marge extérieure de la section */
+}
+
+/* Styles pour l'en-tête de la section des statistiques */
+.stats__header {
+    margin-top: 2em;
+}
+
+/* Styles pour l'en-tête des statistiques sur les petits appareils */
+@media (max-device-width: 480px) {
+    .stats__header {
+        margin-top: 0;
+        margin-bottom: 2em;
+        text-align: center;
+    }
+    .stats__header h1 {
+        font-size: 1.875em; /* Taille de police de l'en-tête */
+    }
+}
+
+/* Styles pour les paragraphes dans l'en-tête des statistiques */
+.stats__header p {
+    max-width: 415px; /* Largeur maximale des paragraphes */
+    font-size: .875em; /* Taille de police des paragraphes */
+    font-weight: 400; /* Poids de la police des paragraphes */
+    line-height: 1.7142857143; /* Hauteur de ligne des paragraphes */
+}
+
+/* Styles pour l'élément de statistique */
+.stats__item {
+    background: #fff; /* Couleur de fond de l'élément */
+    border-radius: 5px; /* Rayon de bordure */
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .05); /* Ombre portée */
+    height: 250px; /* Hauteur de l'élément */
+    text-align: center; /* Alignement du texte */
+    padding: 15px; /* Rembourrage de l'élément */
+    font-size: .8125em; /* Taille de police de l'élément */
+}
+
+/* Styles pour les titres d'éléments de statistique */
+.stats__item h3 {
+    font-size: 1.8461538462em; /* Taille de police des titres */
+    color: #00b39b; /* Couleur du texte des titres */
+    margin: .5em 0; /* Marge autour des titres */
+}
+
+/* Styles pour les paragraphes d'éléments de statistique */
+.stats__item p {
+    margin: 0; /* Réinitialisation de la marge */
+}
+
+/* Styles pour la grille des statistiques */
+.stats__grid .col-2:nth-of-type(2n) .stats__item {
+    transform: translateY(-30px); /* Décalage vers le haut */
+}
+
+/* Styles pour les petits appareils */
+@media (max-device-width: 480px) {
+    .stats__grid {
+        margin: 0 -5px; /* Marge négative */
+    }
+    .stats__grid .col-2 {
+        padding: 5px;
+        width: 50%;
+        float: left; /* Flottement à gauche */
+    }
+}
+
+
+
+.offices{margin-top:5.5rem;margin-bottom:5rem}@media (max-device-width:480px){
+    
+.offices{margin-top:1.875em;margin-bottom:1.875em}}
+
+.offices__header{max-width:460px;margin:0 auto 4.1875rem;font-size:.875em;text-align:center}@media (max-width:870px){.offices__header{padding-left:20px;padding-right:20px}}@media (max-device-width:480px){.offices__header{margin-bottom:1.875em}}
+
+.offices__header p{line-height:1.7142857143}.offices__header h1{font-size:2.1428571429em}@media (min-width:871px){.offices__slider{margin:0 -10px;zoom:1}.offices__slider:after,.offices__slider:before{content:"";display:table}.offices__slider:after{clear:both}.offices__slider .office{width:33.33%;float:left}.offices__slider .office:nth-of-type(3n+1){clear:left}}.offices .slick-dots li{width:12px;margin:0 2px}.offices .slick-dots li button{width:12px;height:12px;padding:2px}.offices .slick-dots li button:before{content:"";width:10px;height:10px;border-radius:10px;top:2px;left:2px;background:#e0e4e4;opacity:1}.offices .slick-dots li.slick-active button:before{background:#3d83df}@media (max-width:870px){.offices{padding-left:0;padding-right:0;overflow:hidden}.offices .office{width:290px;float:left}.offices .slick-slide{outline:0}}.office{padding:10px}@media (max-width:330px){.office{padding:10px 5px}}.office__inner{background:#fff;border:1px solid rgba(0,0,0,.03);border-radius:6px;overflow:hidden;max-width:311px;z-index:2;position:relative;display:block;color:#747474}
+.office__inner:hover{text-decoration:none}@media (min-width:871px){.office__inner{box-shadow:0 5px 10px 0 transparent;transition:box-shadow .2s ease 0s}.office__inner:hover{box-shadow:0 20px 50px 0 rgba(0,0,0,.13)}}.office__image img{display:block;margin:0 auto;width:100%;height:270px}.office__desc{font-size:1.125em;font-weight:400;line-height:1.6666666667;padding:1.1111111111em}.office .btn{float:right}.join-us{margin:5rem auto}.join-us__header{max-width:520px;margin:0 auto;font-size:.875em;text-align:center}.join-us__header h1{font-size:2.1428571429em;color:#333;margin-bottom:.75em}
+
+
+/* Footer */
+.main-footer {
+    /* Style du pied de page */
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.main-footer .section__inner,
+.main-footer p {
+    /* Style du contenu et des paragraphes dans le pied de page */
+    font-size: 12px;
+    color: #ababab;
+}
+
+.main-footer p {
+    /* Style spécifique pour les paragraphes dans le pied de page */
+    margin-bottom: .4em;
+}
+
+/* Section Lead */
+.lead {
+    /* Style de la section Lead */
+    margin: 2.0625rem auto 3.75rem;
+}
+
+.lead p {
+    /* Style des paragraphes dans la section Lead */
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+.lead h1 {
+    /* Style des titres h1 dans la section Lead */
+    text-align: center;
+}
+
+/* Réactivité pour la section Lead */
+@media (max-device-width: 480px) {
+    .lead {
+        margin: 1.25rem auto 1.875rem;
+    }
+    
+    .lead h1 {
+        /* Style spécifique pour les titres h1 dans la section Lead sur les petits appareils */
+        font-size: 1.875em;
+        margin: .7em 0;
+    }
+}
+
+/* Section Services */
+.services {
+    /* Style de la section Services */
+    margin: 3.75rem auto 2.5rem;
+}
+
+/* Réactivité pour la section Services */
+@media (max-width: 640px) {
+    .services .col-2 {
+        width: 100%;
+        float: none;
+    }
+}
+
+.services__item {
+    /* Style des éléments de la section Services */
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+}
+
+/* Réactivité pour les éléments de la section Services */
+@media (max-width: 830px) {
+    .services__item {
+        padding: 1.375em 1.25em 0;
+    }
+}
+
+/* Différents arrière-plans pour les éléments de la section Services */
+.services__item--marketplace {
+    background: #00ccb1;
+}
+
+/* Styles au survol pour les éléments de la section Services */
+.services__item--marketplace:hover {
+    background: #00ccb1;
+    opacity: .9;
+}
+
+.services__item--saas {
+    background: #3d83df;
+}
+
+.services__item--saas:hover {
+    opacity: .9;
+}
+
+.services__item--clinics {
+    background: #1b2734;
+}
+
+.services__item--clinics:hover {
+    opacity: .9;
+}
+
+.services__item h2 {
+    /* Style des titres h2 dans les éléments de la section Services */
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+
+.services__item h1 {
+    /* Style des titres h1 dans les éléments de la section Services */
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;
+}
+
+/* Réactivité pour la taille du texte dans les éléments de la section Services */
+@media (max-width: 800px) {
+    .services__item h1 {
+        font-size: 1.25em;
+    }
+}
+
+/* Style pour les images des éléments de la section Services */
+.services__item img {
+    margin-bottom: -.4em;
+}
+
+.services__item__screen {
+    width: 100%;
+    margin-left: 40%;
+    margin-top: -2.3em;
+}
+
+.services__item__screen img {
+    display: block;
+}
+
+/* Réactivité pour le margin des écrans des éléments de la section Services */
+@media (max-width: 920px) {
+    .services__item__screen {
+        margin-top: 1.625em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.services__item__screen--saas {
+    margin-top: 1em;
+}
+
+/* Styles pour les dropdown select dans la section Services */
+.services .style-select {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.services .style-select select {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.services .style-select select option {
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #333;
+}
+
+.services .style-select:hover {
+    background: none;
+    color: #fff;
+}
+
+.services .style-select:after {
+    background: no-repeat url(/icons/icon-caret-white.svg) 50% 50%;
+}
+
+.services .style-select:last-child {
+    margin-bottom: 35px;
+}
+
+/* Section Marques */
+.brands {
+    /* Style de la section Marques */
+    margin: 2.5rem auto 3.125rem;
+}
+
+.brands h1 {
+    /* Style des titres h1 dans la section Marques */
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+}
+
+/* Réactivité pour la section Marques */
+@media (max-width: 700px) {
+    .brands {
+        margin: 1.875rem auto;
+    }
+
+    /* Réactivité pour la section Marques sur les petits appareils */
+    .brands {
+        margin: 1.875rem auto;
+    }
+    
+    .brands h1 {
+        /* Style spécifique pour les titres h1 dans la section Marques sur les petits appareils */
+        float: none;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .brands__logos {
+        /* Style pour la grille de logos dans la section Marques */
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0;
+        list-style: none;
+        width: 67%;
+    }
+
+    /* Réactivité pour la grille de logos dans la section Marques */
+    @media (max-width: 700px) {
+        .brands__logos {
+            justify-content: center;
+            width: 100%;
+        }
+    }
+
+    .brands__logos li {
+        /* Style pour chaque élément de la grille de logos dans la section Marques */
+        font-size: 1rem;
+        display: inline-block;
+        margin-top: 0;
+        padding: 5px 0;
+        width: 25%;
+    }
+
+    /* Réactivité pour chaque élément de la grille de logos sur les petits appareils */
+    @media (max-width: 700px) {
+        .brands__logos li {
+            padding-left: 0;
+            text-align: center;
+            width: 33.33333%;
+        }
+    }
+
+    /* Réactivité supplémentaire pour chaque élément de la grille de logos sur les appareils mobiles */
+    @media (max-device-width: 480px) {
+        .brands__logos li {
+            width: 50%;
+        }
+    }
+
+    /* Style pour chaque logo dans la grille de logos */
+    .brands__logos a {
+        display: inline-block;
+        padding: 5px 0;
+    }
+
+    .brands__logos a svg {
+        height: 20px;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .brands__logos a path {
+        transition: all .2s ease 0s;
+        fill: hsla(0, 0%, 67%, .7);
+    }
+
+    /* Style au survol pour chaque logo dans la grille de logos */
+    .brands__logos a:hover path {
+        fill: #00bfa5;
+    } }
