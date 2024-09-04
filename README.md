@@ -23,7 +23,7 @@ Ce projet est une réplique de l'interface du site DocPlanner, réalisée dans l
 *
 
 ## Auteur
-- [OGOUBI](eyram-jos)
+- [Eyram](eyram-jos)
 
 ## Licence
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
